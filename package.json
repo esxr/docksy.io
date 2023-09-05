@@ -1,0 +1,25 @@
+{
+  "name": "docksy.io",
+  "version": "1.0.0",
+  "description": "An AI powered service to do QnA in developer docs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "docksy",
+    "developer",
+    "documentation",
+    "question",
+    "answer"
+  ],
+  "author": "Pranav Dhoolia",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.142"
+  }
+}
